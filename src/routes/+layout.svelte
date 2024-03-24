@@ -1,8 +1,11 @@
 <script>
-  import { injectSpeedInsights } from '@vercel/speed-insights';
+  import { inject as injectVercelAnalytics } from '@vercel/analytics';
+  import { injectSpeedInsights as injectVercelSpeedInsights } from '@vercel/speed-insights';
+
   import '../app.css';
 
-  injectSpeedInsights();
+  injectVercelAnalytics();
+  injectVercelSpeedInsights();
 </script>
 
 <slot />
