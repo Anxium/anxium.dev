@@ -1,6 +1,6 @@
 <script lang="ts">
 	import Prism from 'prismjs';
-	import '../prism-theme.css';
+	import '../css/prism-theme.css';
 
 	/**
 	 * Full name of the person
